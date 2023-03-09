@@ -1,0 +1,6 @@
+#PublicIPResolver: "https://some-other-service.com"
+
+Cloudflare:
+  token: "Cloudflare-API-Token"
+  zone: "Domain-containing-record-to-update"
+  record: "record-to-update"

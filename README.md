@@ -1,2 +1,4 @@
 # cfdyndns
-Cloud Flare DynDNS client
+Cloud Flare Dynamic DNS client
+
+
