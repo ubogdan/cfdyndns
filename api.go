@@ -5,7 +5,6 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
 	"net/http"
 	"net/url"
 	"time"
@@ -140,12 +139,10 @@ func (a *API) UpdateRecord(record Record) error {
 	}
 	defer resp.Body.Close()
 
-	data, err := io.ReadAll(resp.Body)
+	_, err = io.ReadAll(resp.Body)
 	if err != nil {
 		return fmt.Errorf("io.ReadAll %w", err)
 	}
-
-	log.Printf("data: %s", data)
 
 	return nil
 }
