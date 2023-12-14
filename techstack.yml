@@ -1,11 +1,11 @@
 repo_name: ubogdan/cfdyndns
-report_id: ef41ccb416bab91f989325e203267f4b
+report_id: 43187054d92e58607b93a0196b91ccbf
 repo_type: Public
-timestamp: '2023-11-09T22:22:06+00:00'
+timestamp: '2023-12-14T09:59:05+00:00'
 requested_by: ubogdan
 provider: github
 branch: main
-detected_tools_count: 2
+detected_tools_count: 3
 tools:
 - name: Golang
   description: An open source programming language that makes it easy to build simple,
@@ -27,3 +27,17 @@ tools:
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
   detection_source: Repo Metadata
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.4.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/ubogdan/cfdyndns/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Bogdan Ungureanu
+  last_updated_on: 2023-03-09 08:39:35.000000000 Z
