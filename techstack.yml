@@ -1,7 +1,8 @@
 repo_name: ubogdan/cfdyndns
-report_id: 43187054d92e58607b93a0196b91ccbf
+report_id: ef41ccb416bab91f989325e203267f4b
+version: 0.1
 repo_type: Public
-timestamp: '2023-12-14T09:59:05+00:00'
+timestamp: '2024-01-04T15:14:52+00:00'
 requested_by: ubogdan
 provider: github
 branch: main
@@ -17,6 +18,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/ubogdan/cfdyndns
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ubogdan/cfdyndns
   detection_source: Repo Metadata
 - name: yaml.v2
   description: YAML support for the Go language
